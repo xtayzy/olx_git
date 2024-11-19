@@ -1,0 +1,81 @@
+.page_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f7fc;
+    font-family: 'Arial', sans-serif;
+}
+
+.page_title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #002f34;
+    margin-bottom: 20px;
+}
+
+.form_container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.form_input {
+    width: 93%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.form_input:focus {
+    border-color: #002f34;
+}
+
+/* Кнопки */
+.submit_button {
+    width: 100%;
+    padding: 14px;
+    font-size: 1.1rem;
+    color: #ffffff;
+    background-color: #002f34;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit_button:hover {
+    background-color: #000000;
+}
+
+.submit_button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.link_container {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.link_container a {
+    color: #002f34;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.link_container a:hover {
+    text-decoration: underline;
+}

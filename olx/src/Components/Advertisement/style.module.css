@@ -1,0 +1,64 @@
+body {
+    background-color: #f2f4f5;
+}
+
+.advertisement {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    transition: transform 0.1s ease;
+    cursor: pointer;
+}
+
+.des {
+    padding: 25px;
+}
+
+.advertisement:hover {
+    transform: scale(1.02);
+}
+
+.advertisement img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 3px 3px 0 0;
+}
+
+.title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.price {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #3b8d99;
+    margin-bottom: 10px;
+}
+
+.contactBtn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #3b8d99;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 80%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contactBtn:hover {
+    background-color: #31767d;
+}
